@@ -8,10 +8,12 @@ import { AppComponent } from './app.component';
 import { NavigationComponent } from './components/elements/navigation/navigation.component';
 import { ContentComponent } from './components/elements/content/content.component';
 import { FooterComponent } from './components/elements/footer/footer.component';
+
+//page container
+import { PagesComponent } from './components/pages/pages.component';
+//pages
 import { PageIndexComponent } from './components/pages/page-index/page-index.component';
 import { PageProjectsComponent } from './components/pages/page-projects/page-projects.component';
-
-//pages
 
 @NgModule({
   declarations: [
@@ -19,6 +21,7 @@ import { PageProjectsComponent } from './components/pages/page-projects/page-pro
     NavigationComponent,
     ContentComponent,
     FooterComponent,
+    PagesComponent,
     PageIndexComponent,
     PageProjectsComponent
   ],
