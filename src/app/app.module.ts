@@ -3,17 +3,24 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { NavigationComponent } from './components/navigation/navigation.component';
-import { ContentComponent } from './components/content/content.component';
-import { FooterComponent } from './components/footer/footer.component';
 
+//elements
+import { NavigationComponent } from './components/elements/navigation/navigation.component';
+import { ContentComponent } from './components/elements/content/content.component';
+import { FooterComponent } from './components/elements/footer/footer.component';
+import { PageIndexComponent } from './components/pages/page-index/page-index.component';
+import { PageProjectsComponent } from './components/pages/page-projects/page-projects.component';
+
+//pages
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     ContentComponent,
-    FooterComponent
+    FooterComponent,
+    PageIndexComponent,
+    PageProjectsComponent
   ],
   imports: [
     BrowserModule,
